@@ -25,13 +25,13 @@ else
 	touch ~/.jss-basicinit-done
 fi
 
-echo "Importuji DBus nastavení"
-dconf load / < $PWD/Data/all-dconf.dconf
-
 #zkopirujeme cast konfiguraku, zbytek udelame po syncu
 echo "Kopíruji první část konfiguráků, zbytek proveď až po syncu"
 cp -vfR $PWD/Data/config/* ~/.config/
 cp -vfR $PWD/Data/local/* ~/.local/
+
+echo "Importuji DBus nastavení"
+dconf load / < $PWD/Data/all-dconf.dconf
 
 #install Joplin
 echo "Instaluji Joplin"
