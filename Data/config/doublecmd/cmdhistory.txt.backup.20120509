@@ -1,0 +1,10 @@
+gksu umount /media/SSS
+gksu umount /media/76C7-A2AF 
+bash send_backup_to_sync.sh 
+bash convert_mp3_to_wav.sh 
+~
+gksu gedit /etc/fstab
+/usr/share/polkit-1/actions
+sudo mkdir Data
+gksu nautilus
+ls

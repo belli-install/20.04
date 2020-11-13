@@ -1,0 +1,7 @@
+bash convert_mp3_to_wav.sh 
+~
+gksu gedit /etc/fstab
+/usr/share/polkit-1/actions
+sudo mkdir Data
+gksu nautilus
+ls

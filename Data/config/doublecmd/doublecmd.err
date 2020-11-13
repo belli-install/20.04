@@ -1,0 +1,741 @@
+--------------- 09-04-2012, 12:12:37 ---------------
+| DC v0.5.3.1 beta Rev. 4263 -- i386-Linux-gtk2
+| Ubuntu 11.10 -- GTK 2.24.6
+Unhandled exception: Exception: Nelze otevřít existující soubor
+  Stack trace:
+  $084D46E9 line 380, column 54 of newdesign/uwcxarchivefilesource.pas in /usr/lib/doublecmd/doublecmd
+  $084D4330 line 324, column 38 of newdesign/uwcxarchivefilesource.pas in /usr/lib/doublecmd/doublecmd
+  $0843CA4E line 58, column 38 of newdesign/uarchivefilesourceutil.pas in /usr/lib/doublecmd/doublecmd
+  $0843CCAF line 86, column 15 of newdesign/uarchivefilesourceutil.pas in /usr/lib/doublecmd/doublecmd
+  $0833BB3B line 224, column 17 of newdesign/ufilesourceutil.pas in /usr/lib/doublecmd/doublecmd
+  $0833B603 line 146, column 6 of newdesign/ufilesourceutil.pas in /usr/lib/doublecmd/doublecmd
+  $082FCE71 line 759, column 52 of uacts.pas in /usr/lib/doublecmd/doublecmd
+  $082FEBC0 line 1162, column 37 of uacts.pas in /usr/lib/doublecmd/doublecmd
+  $082FB609 line 385, column 9 of uacts.pas in /usr/lib/doublecmd/doublecmd
+  $082FA7A7 line 685, column 18 of uhotkeymanger.pas in /usr/lib/doublecmd/doublecmd
+  $082FAF8A line 874, column 14 of uhotkeymanger.pas in /usr/lib/doublecmd/doublecmd
+  $081AC8BD in /usr/lib/doublecmd/doublecmd
+  $081AC8F6 in /usr/lib/doublecmd/doublecmd
+  $081ACC3B in /usr/lib/doublecmd/doublecmd
+  $081ACB90 in /usr/lib/doublecmd/doublecmd
+  $081AF1C9 in /usr/lib/doublecmd/doublecmd
+  $0806DDFA in /usr/lib/doublecmd/doublecmd
+
+--------------- 18-05-2012, 08:44:09 ---------------
+| DC v0.5.3.1 beta Rev. 4263 -- x86_64-Linux-gtk2
+| Ubuntu 11.10 -- GTK 2.24.6
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000A8861E line 994, column 13 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A87E9E line 853, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A881EB line 916, column 90 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A87E76 line 851, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8699D line 588, column 3 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A4DDEB line 49, column 5 of newdesign/uoperationthread.pas in /usr/lib/doublecmd/doublecmd
+  $00000000005AF488 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 15-07-2012, 14:50:02 ---------------
+| DC v0.5.4 beta Rev. 4505 -- x86_64-Linux-gtk2
+| Ubuntu 11.10 -- GTK 2.24.6
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000A8BD1E line 994, column 13 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B59E line 853, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B8EB line 916, column 90 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B576 line 851, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8A09D line 588, column 3 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A514EB line 49, column 5 of newdesign/uoperationthread.pas in /usr/lib/doublecmd/doublecmd
+  $00000000005AFB38 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 15-07-2012, 14:52:44 ---------------
+| DC v0.5.4 beta Rev. 4505 -- x86_64-Linux-gtk2
+| Ubuntu 11.10 -- GTK 2.24.6
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000A8BD1E line 994, column 13 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B59E line 853, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B8EB line 916, column 90 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B576 line 851, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8A09D line 588, column 3 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A514EB line 49, column 5 of newdesign/uoperationthread.pas in /usr/lib/doublecmd/doublecmd
+  $00000000005AFB38 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 15-07-2012, 15:01:15 ---------------
+| DC v0.5.4 beta Rev. 4505 -- x86_64-Linux-gtk2
+| Ubuntu 11.10 -- GTK 2.24.6
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000A8BD1E line 994, column 13 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B59E line 853, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B8EB line 916, column 90 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B576 line 851, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8A09D line 588, column 3 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A514EB line 49, column 5 of newdesign/uoperationthread.pas in /usr/lib/doublecmd/doublecmd
+  $00000000005AFB38 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 18-08-2012, 15:53:08 ---------------
+| DC v0.5.4 beta Rev. 4505 -- x86_64-Linux-gtk2
+| Ubuntu 11.10 -- GTK 2.24.6
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000A8BD1E line 994, column 13 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B59E line 853, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B8EB line 916, column 90 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B576 line 851, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8A09D line 588, column 3 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A514EB line 49, column 5 of newdesign/uoperationthread.pas in /usr/lib/doublecmd/doublecmd
+  $00000000005AFB38 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 18-08-2012, 16:17:21 ---------------
+| DC v0.5.4 beta Rev. 4505 -- x86_64-Linux-gtk2
+| Ubuntu 11.10 -- GTK 2.24.6
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000A8BD1E line 994, column 13 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B59E line 853, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B8EB line 916, column 90 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B576 line 851, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8A09D line 588, column 3 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A514EB line 49, column 5 of newdesign/uoperationthread.pas in /usr/lib/doublecmd/doublecmd
+  $00000000005AFB38 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 18-08-2012, 16:39:39 ---------------
+| DC v0.5.4 beta Rev. 4505 -- x86_64-Linux-gtk2
+| Ubuntu 11.10 -- GTK 2.24.6
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000A8BD1E line 994, column 13 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B59E line 853, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B8EB line 916, column 90 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B576 line 851, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B8EB line 916, column 90 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B576 line 851, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B8EB line 916, column 90 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B576 line 851, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B8EB line 916, column 90 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B576 line 851, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B8EB line 916, column 90 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B576 line 851, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B8EB line 916, column 90 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B576 line 851, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B8EB line 916, column 90 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B576 line 851, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B8EB line 916, column 90 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 31-08-2012, 11:27:56 ---------------
+| DC v0.5.4 beta Rev. 4505 -- x86_64-Linux-gtk2
+| Ubuntu 12.04.1 LTS -- GTK 2.24.10
+Unhandled exception: EInvalidOp: Invalid floating point operation
+  Stack trace:
+  $00007FA66990984E in /usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/engines/libmurrine.so
+  $0001020000000000 in 
+
+--------------- 11-03-2013, 20:39:57 ---------------
+| DC v0.5.4 beta Rev. 4505 -- x86_64-Linux-gtk2
+| Ubuntu 12.04.2 LTS -- GTK 2.24.10
+Unhandled exception: EInvalidOp: Invalid floating point operation
+  Stack trace:
+  $00007FF3D914A84E in /usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/engines/libmurrine.so
+  $0001020000000000 in 
+
+--------------- 28-05-2013, 17:28:34 ---------------
+| DC v0.5.4 beta Rev. 4505 -- x86_64-Linux-gtk2
+| Ubuntu 12.04.2 LTS -- GTK 2.24.10
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000A8BD1E line 994, column 13 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B59E line 853, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8A09D line 588, column 3 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A514EB line 49, column 5 of newdesign/uoperationthread.pas in /usr/lib/doublecmd/doublecmd
+  $00000000005AFB38 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 28-05-2013, 17:29:19 ---------------
+| DC v0.5.4 beta Rev. 4505 -- x86_64-Linux-gtk2
+| Ubuntu 12.04.2 LTS -- GTK 2.24.10
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000A8BD1E line 994, column 13 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8B59E line 853, column 22 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A8A09D line 588, column 3 of newdesign/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A514EB line 49, column 5 of newdesign/uoperationthread.pas in /usr/lib/doublecmd/doublecmd
+  $00000000005AFB38 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 15-07-2013, 22:51:05 ---------------
+| DC v0.5.5 beta Rev. 5242 -- x86_64-Linux-gtk2
+| Ubuntu 13.04 -- GTK 2.24.17
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000BF65CE line 1215, column 13 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DDA line 1066, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6145 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DB6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF3B36 line 633, column 3 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000B1F0FB line 49, column 5 of filesources/uoperationthread.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006643B4 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 17-07-2013, 22:23:12 ---------------
+| DC v0.5.5 beta Rev. 5242 -- x86_64-Linux-gtk2
+| Ubuntu 13.04 -- GTK 2.24.17
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000BF65CE line 1215, column 13 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DDA line 1066, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6145 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DB6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF3B36 line 633, column 3 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000B1F0FB line 49, column 5 of filesources/uoperationthread.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006643B4 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 26-09-2013, 15:45:23 ---------------
+| DC v0.5.7 beta Rev. 5310 -- x86_64-Linux-gtk2
+| Ubuntu 13.04 -- GTK 2.24.17
+Unhandled exception: EStringListError: List index (1) out of bounds
+  Stack trace:
+  $0000000000663EE3 in /usr/lib/doublecmd/doublecmd
+
+--------------- 26-09-2013, 15:46:01 ---------------
+| DC v0.5.7 beta Rev. 5310 -- x86_64-Linux-gtk2
+| Ubuntu 13.04 -- GTK 2.24.17
+Unhandled exception: EStringListError: List index (1) out of bounds
+  Stack trace:
+  $0000000000663EE3 in /usr/lib/doublecmd/doublecmd
+
+--------------- 26-09-2013, 15:46:43 ---------------
+| DC v0.5.7 beta Rev. 5310 -- x86_64-Linux-gtk2
+| Ubuntu 13.04 -- GTK 2.24.17
+Unhandled exception: EStringListError: List index (1) out of bounds
+  Stack trace:
+  $0000000000663EE3 in /usr/lib/doublecmd/doublecmd
+
+--------------- 01-10-2013, 14:29:07 ---------------
+| DC v0.5.6 beta Rev. 5261M -- x86_64-Linux-gtk2
+| Ubuntu 13.04 -- GTK 2.24.17
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000BF65EE line 1215, column 13 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DFA line 1066, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF3B56 line 633, column 3 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000B1F11B line 49, column 5 of filesources/uoperationthread.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006642F4 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 01-10-2013, 14:30:25 ---------------
+| DC v0.5.6 beta Rev. 5261M -- x86_64-Linux-gtk2
+| Ubuntu 13.04 -- GTK 2.24.17
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000BF65EE line 1215, column 13 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DFA line 1066, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 01-10-2013, 14:30:51 ---------------
+| DC v0.5.6 beta Rev. 5261M -- x86_64-Linux-gtk2
+| Ubuntu 13.04 -- GTK 2.24.17
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000BF65EE line 1215, column 13 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DFA line 1066, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 01-10-2013, 14:33:26 ---------------
+| DC v0.5.6 beta Rev. 5261M -- x86_64-Linux-gtk2
+| Ubuntu 13.04 -- GTK 2.24.17
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000BF65EE line 1215, column 13 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DFA line 1066, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF3B56 line 633, column 3 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000B1F11B line 49, column 5 of filesources/uoperationthread.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006642F4 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 01-10-2013, 14:42:09 ---------------
+| DC v0.5.6 beta Rev. 5261M -- x86_64-Linux-gtk2
+| Ubuntu 13.04 -- GTK 2.24.17
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000BF65EE line 1215, column 13 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DFA line 1066, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF3B56 line 633, column 3 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000B1F11B line 49, column 5 of filesources/uoperationthread.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006642F4 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 30-10-2013, 18:49:06 ---------------
+| DC v0.5.6 beta Rev. 5261M -- x86_64-Linux-gtk2
+| Ubuntu 13.04 -- GTK 2.24.17
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000BF65EE line 1215, column 13 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DFA line 1066, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF3B56 line 633, column 3 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000B1F11B line 49, column 5 of filesources/uoperationthread.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006642F4 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 30-10-2013, 19:23:41 ---------------
+| DC v0.5.6 beta Rev. 5261M -- x86_64-Linux-gtk2
+| Ubuntu 13.04 -- GTK 2.24.17
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000BF65EE line 1215, column 13 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DFA line 1066, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 30-10-2013, 19:24:00 ---------------
+| DC v0.5.6 beta Rev. 5261M -- x86_64-Linux-gtk2
+| Ubuntu 13.04 -- GTK 2.24.17
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000BF65EE line 1215, column 13 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DFA line 1066, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF3B56 line 633, column 3 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000B1F11B line 49, column 5 of filesources/uoperationthread.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006642F4 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 30-10-2013, 19:24:23 ---------------
+| DC v0.5.6 beta Rev. 5261M -- x86_64-Linux-gtk2
+| Ubuntu 13.04 -- GTK 2.24.17
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000BF65EE line 1215, column 13 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DFA line 1066, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 15-12-2013, 15:30:09 ---------------
+| DC v0.5.6 beta Rev. 5261M -- x86_64-Linux-gtk2
+| Ubuntu 13.04 -- GTK 2.24.17
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000BF65EE line 1215, column 13 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DFA line 1066, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 15-12-2013, 16:31:59 ---------------
+| DC v0.5.6 beta Rev. 5261M -- x86_64-Linux-gtk2
+| Ubuntu 13.04 -- GTK 2.24.17
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000BF65EE line 1215, column 13 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DFA line 1066, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 15-12-2013, 16:35:41 ---------------
+| DC v0.5.6 beta Rev. 5261M -- x86_64-Linux-gtk2
+| Ubuntu 13.04 -- GTK 2.24.17
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000BF65EE line 1215, column 13 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DFA line 1066, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF5DD6 line 1064, column 22 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000BF6165 line 1133, column 90 of filesources/filesystem/ufilesystemutil.pas in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 02-11-2015, 16:06:09 ---------------
+| DC v0.6.6 beta Rev. 6327 -- x86_64-Linux-gtk2
+| Ubuntu 14.04.3 LTS -- GTK 2.24.23
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00000000004A1052 in /usr/lib/doublecmd/doublecmd
+  $0000000000A52F7B line 49, column 5 of filesources/uoperationthread.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004A0754 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 02-11-2015, 16:06:37 ---------------
+| DC v0.6.6 beta Rev. 6327 -- x86_64-Linux-gtk2
+| Ubuntu 14.04.3 LTS -- GTK 2.24.23
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F232E5BC27C in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007F232E5C9E18 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00000000007F004A line 264, column 28 of uwcxmodule.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000B43D49 line 254, column 23 of filesources/wcxarchive/uwcxarchivecopyinoperation.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000865FC7 line 590, column 7 of filesources/ufilesourceoperation.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A52F7B line 49, column 5 of filesources/uoperationthread.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004A0754 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 02-11-2015, 16:07:03 ---------------
+| DC v0.6.6 beta Rev. 6327 -- x86_64-Linux-gtk2
+| Ubuntu 14.04.3 LTS -- GTK 2.24.23
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F232E5BC1C8 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007F232E5C9E18 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00000000007F004A line 264, column 28 of uwcxmodule.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000B43D49 line 254, column 23 of filesources/wcxarchive/uwcxarchivecopyinoperation.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000865FC7 line 590, column 7 of filesources/ufilesourceoperation.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A52F7B line 49, column 5 of filesources/uoperationthread.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004A0754 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 02-11-2015, 16:08:01 ---------------
+| DC v0.6.6 beta Rev. 6327 -- x86_64-Linux-gtk2
+| Ubuntu 14.04.3 LTS -- GTK 2.24.23
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F232E5BC1C8 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007F232E5C9E18 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00000000007F004A line 264, column 28 of uwcxmodule.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000B43D49 line 254, column 23 of filesources/wcxarchive/uwcxarchivecopyinoperation.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000865FC7 line 590, column 7 of filesources/ufilesourceoperation.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A52F7B line 49, column 5 of filesources/uoperationthread.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004A0754 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 20-11-2015, 12:22:56 ---------------
+| DC v0.6.6 beta Rev. 6327 -- x86_64-Linux-gtk2
+| Ubuntu 14.04.3 LTS -- GTK 2.24.23
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $0000000000B29C69 in /usr/lib/doublecmd/doublecmd
+
+--------------- 30-01-2016, 18:28:54 ---------------
+| DC v0.6.6 beta Rev. 6327 -- x86_64-Linux-gtk2
+| Ubuntu 14.04.3 LTS -- GTK 2.24.23
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $0000000000B29C69 in /usr/lib/doublecmd/doublecmd
+
+--------------- 23-04-2016, 10:55:43 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 14.04.4 LTS -- GTK 2.24.23
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $0000000000430464 in /usr/lib/doublecmd/doublecmd
+  $000000000058C3D3 line 4861, column 17 of include/control.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000576440 line 6513, column 3 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000058EDD0 line 54, column 3 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004A7861 in /usr/lib/doublecmd/doublecmd
+  $000000000058C3AC line 4858, column 3 of include/control.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000576440 line 6513, column 3 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000058EDD0 line 54, column 3 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004DBD78 line 315, column 3 of include/scrollingwincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004DD168 line 207, column 5 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000A5EE3D line 360, column 3 of fFileOpDlg.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004EBD39 line 396, column 3 of include/application.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004EF31C line 1266, column 10 of include/application.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004EF83A line 1400, column 9 of include/application.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000647F48 line 54, column 6 of include/interfacebase.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004EF7E5 line 1388, column 21 of include/application.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004206A7 line 199, column 7 of doublecmd.lpr in /usr/lib/doublecmd/doublecmd
+
+--------------- 21-04-2020, 20:29:09 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt4
+| Ubuntu 18.04.4 LTS -- Qt 4.8.7, libQt4Pas 4.5.3 | PID 10065
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FCF05EA2DA8 in /usr/lib/x86_64-linux-gnu/libQt4Pas.so.5
+  $00000000004BB8C6 line 1609, column 3 of include/application.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004DC231 line 2192, column 3 of fmain.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004B057C line 2183, column 7 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004B07FD line 2263, column 3 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000438F2F in /usr/lib/doublecmd/doublecmd
+  $000000000064529D line 5397, column 28 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004AE0B2 line 1477, column 31 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006BF73B line 5730, column 7 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006B9B99 line 2856, column 3 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004EBE5F line 6243, column 19 of fmain.pas in /usr/lib/doublecmd/doublecmd
+
+--------------- 19-05-2020, 20:34:05 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt4
+| Ubuntu 18.04.4 LTS -- Qt 4.8.7, libQt4Pas 4.5.3 | PID 3545
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FC2F5049DA8 in /usr/lib/x86_64-linux-gnu/libQt4Pas.so.5
+  $00000000004BB8C6 line 1609, column 3 of include/application.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004DC231 line 2192, column 3 of fmain.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004B057C line 2183, column 7 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004B07FD line 2263, column 3 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000438F2F in /usr/lib/doublecmd/doublecmd
+  $000000000064529D line 5397, column 28 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004AE0B2 line 1477, column 31 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006BF73B line 5730, column 7 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006B9B99 line 2856, column 3 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004EBE5F line 6243, column 19 of fmain.pas in /usr/lib/doublecmd/doublecmd
+
+--------------- 29-05-2020, 09:58:23 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt4
+| Ubuntu 18.04.4 LTS -- Qt 4.8.7, libQt4Pas 4.5.3 | PID 6193
+Unhandled exception: EInvalidOp: Invalid floating point operation
+  Stack trace:
+  $00007F1DA0B5DA46 in /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+  $00000000006AF878 line 341, column 37 of qtthemes.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A66829 line 277, column 7 of fviewoperations.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007234C3 line 5188, column 12 of include/treeview.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000722F5C line 4728, column 11 of include/treeview.inc in /usr/lib/doublecmd/doublecmd
+  $000000000071FB51 line 3537, column 3 of include/treeview.inc in /usr/lib/doublecmd/doublecmd
+  $000000000065D066 line 132, column 5 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000643CC8 line 4820, column 7 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000648209 line 6773, column 23 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000065CF9C line 112, column 28 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000438F2F in /usr/lib/doublecmd/doublecmd
+  $000000000064529D line 5397, column 28 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006BC7C8 line 4238, column 9 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006B94BB line 2687, column 15 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006DB2CB line 17101, column 15 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006DC5B5 line 17615, column 9 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00007F1DA2529E1D in /usr/lib/x86_64-linux-gnu/libQt4Pas.so.5
+
+--------------- 29-05-2020, 09:58:56 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt4
+| Ubuntu 18.04.4 LTS -- Qt 4.8.7, libQt4Pas 4.5.3 | PID 6193
+Unhandled exception: EInvalidOp: Invalid floating point operation
+  Stack trace:
+  $00007F1DA0B5DA46 in /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+  $00000000006AF878 line 341, column 37 of qtthemes.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A66829 line 277, column 7 of fviewoperations.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007234C3 line 5188, column 12 of include/treeview.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000722F5C line 4728, column 11 of include/treeview.inc in /usr/lib/doublecmd/doublecmd
+  $000000000071FB51 line 3537, column 3 of include/treeview.inc in /usr/lib/doublecmd/doublecmd
+  $000000000065D066 line 132, column 5 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000643CC8 line 4820, column 7 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000648209 line 6773, column 23 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000065CF9C line 112, column 28 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000438F2F in /usr/lib/doublecmd/doublecmd
+  $000000000064529D line 5397, column 28 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006BC7C8 line 4238, column 9 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006B94BB line 2687, column 15 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006DB2CB line 17101, column 15 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006DC5B5 line 17615, column 9 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00007F1DA2529E1D in /usr/lib/x86_64-linux-gnu/libQt4Pas.so.5
+
+--------------- 29-05-2020, 10:02:48 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt4
+| Ubuntu 18.04.4 LTS -- Qt 4.8.7, libQt4Pas 4.5.3 | PID 6193
+Unhandled exception: EInvalidOp: Invalid floating point operation
+  Stack trace:
+  $00007F1DA0B5DA46 in /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+  $00000000006AF878 line 341, column 37 of qtthemes.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A66829 line 277, column 7 of fviewoperations.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007234C3 line 5188, column 12 of include/treeview.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000722F5C line 4728, column 11 of include/treeview.inc in /usr/lib/doublecmd/doublecmd
+  $000000000071FB51 line 3537, column 3 of include/treeview.inc in /usr/lib/doublecmd/doublecmd
+  $000000000065D066 line 132, column 5 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000643CC8 line 4820, column 7 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000648209 line 6773, column 23 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000065CF9C line 112, column 28 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000438F2F in /usr/lib/doublecmd/doublecmd
+  $000000000064529D line 5397, column 28 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006BC7C8 line 4238, column 9 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006B94BB line 2687, column 15 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006DB2CB line 17101, column 15 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006DC5B5 line 17615, column 9 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00007F1DA2529E1D in /usr/lib/x86_64-linux-gnu/libQt4Pas.so.5
+
+--------------- 02-06-2020, 18:00:15 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt4
+| Ubuntu 18.04.4 LTS -- Qt 4.8.7, libQt4Pas 4.5.3 | PID 3757
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FEFBFDC6DA8 in /usr/lib/x86_64-linux-gnu/libQt4Pas.so.5
+  $00000000004BB8C6 line 1609, column 3 of include/application.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004DC231 line 2192, column 3 of fmain.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004B057C line 2183, column 7 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004B07FD line 2263, column 3 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000438F2F in /usr/lib/doublecmd/doublecmd
+  $000000000064529D line 5397, column 28 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004AE0B2 line 1477, column 31 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006BF73B line 5730, column 7 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006B9B99 line 2856, column 3 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004EBE5F line 6243, column 19 of fmain.pas in /usr/lib/doublecmd/doublecmd
+
+--------------- 02-07-2020, 19:40:59 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Ubuntu 18.04.4 LTS -- Qt 5.9.5, libQt5Pas 5.6.1 | PID 5719
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F3F65020B68 in /usr/lib/x86_64-linux-gnu/libQt5Pas.so.1
+  $00000000004BA196 line 1615, column 3 of include/application.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004DB061 line 2203, column 3 of fmain.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004AEEDC line 2196, column 7 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004AF15D line 2276, column 3 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $000000000043909F in /usr/lib/doublecmd/doublecmd
+  $00000000006477FD line 5411, column 28 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004AC9D2 line 1477, column 31 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006EAB6B line 5716, column 7 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006E51E9 line 2868, column 3 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004EADFF line 6312, column 19 of fmain.pas in /usr/lib/doublecmd/doublecmd
+
+--------------- 10-08-2020, 15:39:33 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Ubuntu 18.04.4 LTS -- Qt 5.9.5, libQt5Pas 5.6.1 | PID 8720
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F87333BC150 in /usr/lib/x86_64-linux-gnu/libQt5Pas.so.1
+  $0000000000707A3F line 17584, column 3 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000438B70 in /usr/lib/doublecmd/doublecmd
+  $00000000006E411E line 2270, column 3 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006E4154 line 2276, column 3 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00007F87333FCA1B in /usr/lib/x86_64-linux-gnu/libQt5Pas.so.1
+  $00007F87308A4CCF in /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
+
+--------------- 10-08-2020, 15:39:34 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Ubuntu 18.04.4 LTS -- Qt 5.9.5, libQt5Pas 5.6.1 | PID 8720
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F87333BC150 in /usr/lib/x86_64-linux-gnu/libQt5Pas.so.1
+  $0000000000707A3F line 17584, column 3 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000438B70 in /usr/lib/doublecmd/doublecmd
+  $00000000006E411E line 2270, column 3 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007B8C80 line 208, column 24 of qtwscontrols.pp in /usr/lib/doublecmd/doublecmd
+  $000000000064D278 line 7861, column 26 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000065F8A5 line 47, column 3 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000064746F line 5313, column 5 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000647459 line 5309, column 11 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000064A2BC line 6606, column 5 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000065F831 line 40, column 3 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004A7CA1 line 316, column 3 of include/scrollingwincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004A9631 line 212, column 5 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000438B70 in /usr/lib/doublecmd/doublecmd
+  $00000000004A4A56 line 1934, column 3 of forms.pp in /usr/lib/doublecmd/doublecmd
+
+--------------- 14-08-2020, 18:05:01 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Ubuntu 18.04.5 LTS -- Qt 5.9.5, libQt5Pas 5.6.1 | PID 10551
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FDC07590B68 in /usr/lib/x86_64-linux-gnu/libQt5Pas.so.1
+  $00000000004BA196 line 1615, column 3 of include/application.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004DB061 line 2203, column 3 of fmain.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004AEEDC line 2196, column 7 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004AF15D line 2276, column 3 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $000000000043909F in /usr/lib/doublecmd/doublecmd
+  $00000000006477FD line 5411, column 28 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004AC9D2 line 1477, column 31 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006EAB6B line 5716, column 7 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006E51E9 line 2868, column 3 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004EADFF line 6312, column 19 of fmain.pas in /usr/lib/doublecmd/doublecmd
+
