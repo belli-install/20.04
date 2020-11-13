@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.remmina.Remmina.desktop" score="67" last-seen="1605201356"/>
+    <application id="guake.desktop" score="1" last-seen="1605141003"/>
+    <application id="org.gnome.tweaks.desktop" score="51" last-seen="1605176249"/>
+    <application id="org.gnome.Shell.Extensions.desktop" score="82" last-seen="1605176246"/>
+    <application id="org.keepassxc.KeePassXC.desktop" score="20" last-seen="1605271853"/>
+    <application id="software-properties-gtk.desktop" score="8" last-seen="1605174447"/>
+    <application id="chromium_chromium.desktop" score="200" last-seen="1605271080"/>
+    <application id="org.gnome.Evolution-alarm-notify.desktop" score="5" last-seen="1605243614"/>
+    <application id="org.gnome.gedit.desktop" score="39" last-seen="1605271221"/>
+    <application id="org.gnome.eog.desktop" score="2" last-seen="1605173161"/>
+    <application id="update-manager.desktop" score="11" last-seen="1605146448"/>
+    <application id="org.gnome.Nautilus.desktop" score="9" last-seen="1605173147"/>
+    <application id="gnome-control-center.desktop" score="115" last-seen="1605208303"/>
+    <application id="gnome-initial-setup.desktop" score="1.75" last-seen="1605142695"/>
+    <application id="org.gnome.Terminal.desktop" score="153391659.75" last-seen="1605140865"/>
+    <application id="appimagekit-joplin.desktop" score="382" last-seen="1605208127"/>
+    <application id="org.gnome.Calendar.desktop" score="1" last-seen="1605208177"/>
+    <application id="firefox.desktop" score="494.5" last-seen="1605271676"/>
+    <application id="veracrypt.desktop" score="21" last-seen="1605169350"/>
+    <application id="doublecmd.desktop" score="725" last-seen="1605271745"/>
+    <application id="gnome-system-monitor.desktop" score="66" last-seen="1605201707"/>
+    <application id="geany.desktop" score="293" last-seen="1605271839"/>
+    <application id="xdg-desktop-portal-gtk.desktop" score="0" last-seen="1605173140"/>
+  </context>
+</application-state>

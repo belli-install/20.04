@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schemalist gettext-domain="gnome-shell-extensions">
+   <enum id="org.gnome.shell.extensions.overview-improved.single-window-action">
+    <value value="0" nick="focus"/>
+    <value value="1" nick="minimize-unminimize"/>
+    <value value="2" nick="overview"/>
+  </enum>
+  <enum id="org.gnome.shell.extensions.overview-improved.multiple-window-action">
+    <value value="0" nick="unity-behaviour"/>
+    <value value="1" nick="overview"/>
+  </enum>
+   <enum
+    id="org.gnome.shell.extensions.overview-improved.overview-search-box"
+  >
+    <value value="0" nick="window-search"/>
+    <value value="1" nick="gnome-default"/>
+    <value value="2" nick="disabled"/>
+  </enum>
+  <schema
+    path="/org/gnome/shell/extensions/overview-improved/"
+    id="org.gnome.shell.extensions.overview-improved"
+  >
+    <key
+      name="single-window-action"
+      enum="org.gnome.shell.extensions.overview-improved.single-window-action"
+    >
+      <default>'focus'</default>
+      <summary>
+        Single window action to be performed
+      </summary>
+      <description>
+        Action to be performed when application icons is clicked with only
+        single window existing. Allowed values are 'focus',
+        'minimize-unminimize' or 'overview'
+      </description>
+    </key>
+    <key
+      name="multiple-window-action"
+      enum="org.gnome.shell.extensions.overview-improved.multiple-window-action"
+    >
+      <default>'unity-behaviour'</default>
+      <summary>
+        Multiple window action to be performed
+      </summary>
+      <description>
+        Action to be performed when application icons is clicked with only
+        single window existing. Allowed values are 'overview' or
+        'unity-behaviuor'
+      </description>
+    </key>
+    <key
+      name="window-overview-search-box"
+      enum="org.gnome.shell.extensions.overview-improved.overview-search-box"
+    >
+      <default>'window-search'</default>
+      <summary>
+        Functionaliy of the search box in window specific overview
+      </summary>
+      <description>
+        Functionaliy of the search box in window specific overview
+      </description>
+    </key>
+    <key
+      name="general-overview-search-box"
+      enum="org.gnome.shell.extensions.overview-improved.overview-search-box"
+    >
+      <default>'window-search'</default>
+      <summary>
+        Functionaliy of the search box in general overview
+      </summary>
+      <description>
+        Functionaliy of the search box in general overview
+      </description>
+    </key>
+    <key
+      name="multiple-monitors-applications-view-hide-windows"
+      type="b"
+    >
+      <default>true</default>
+      <summary>
+        On multiple monitors, show or hide windows when application view is
+        activated
+      </summary>
+      <description>
+        On multiple monitors, show or hide windows when application view is
+        activated
+      </description>
+    </key>
+    <key
+      name="hide-window-overview-on-empty-space-click"
+      type="b"
+    >
+      <default>true</default>
+      <summary>
+        In window overview clicking on empty space hides overview
+      </summary>
+      <description>
+        In window overview clicking on empty space hides overview
+      </description>
+    </key>
+    <key name="window-overview-keybinding" type="as">
+      <default><![CDATA[['<Super>w']]]></default>
+      <summary>The manual shortcut used to toggle the terminal</summary>
+      <description>
+        The shortcut used to open and close the terminal.
+      </description>
+    </key>
+
+  </schema>
+</schemalist>
