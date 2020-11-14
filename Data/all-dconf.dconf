@@ -58,9 +58,6 @@ gtk-im-module='gtk-im-context-simple'
 gtk-theme='Yaru'
 show-battery-percentage=true
 
-[org/gnome/desktop/notifications]
-application-children=['update-manager', 'firefox', 'org-gnome-tweaks', 'org-gnome-shell-extensions', 'org-gnome-gedit', 'org-gnome-nautilus', 'gnome-power-panel', 'org-remmina-remmina', 'org-gnome-evolution-alarm-notify', 'gnome-printers-panel']
-
 [org/gnome/desktop/notifications/application/firefox]
 application-id='firefox.desktop'
 
@@ -194,6 +191,7 @@ hinting='slight'
 [org/gnome/shell]
 command-history=['gnome-tweaks', 'r']
 enabled-extensions=['unite@hardpixel.eu', 'impatience@gfxmonk.net', 'wsmatrix@martin.zurowietz.de', 'overview-improved@human.experience', 'show_applications_instead_of_overview@fawtytoo']
+favorite-apps=['doublecmd.desktop', 'firefox.desktop', 'google-chrome.desktop', 'thunderbird.desktop', 'org.gnome.Calendar.desktop', 'appimagekit-joplin.desktop', 'org.remmina.Remmina.desktop', 'org.keepassxc.KeePassXC.desktop', 'veracrypt.desktop', 'gnome-system-monitor.desktop']
 
 [org/gnome/shell/extensions/desktop-icons]
 show-home=false
