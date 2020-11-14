@@ -29,7 +29,7 @@ else
 	touch /etc/.jss-software-sources-added
 fi
 
-apt-get install gparted exfat-fuse x11-utils hfsprogs p7zip p7zip-full p7zip-rar simple-scan synaptic chromium-browser pepperflashplugin-nonfree openjdk-8-jdk openjdk-8-jre keepassx compizconfig-settings-manager compiz-plugins compiz-plugins-main compiz-plugins-extra unity-tweak-tool ubuntu-restricted-extras jayatana notify-osd network-manager-openvpn-gnome -y
+apt-get install gparted exfat-fuse x11-utils hfsprogs p7zip p7zip-full p7zip-rar simple-scan synaptic pepperflashplugin-nonfree openjdk-14-jre openjdk-14-jre-headless openjdk-14-jdk openjdk-14-jdk-headless keepassx ubuntu-restricted-extras network-manager-openvpn-gnome -y
 
 apt-get update
 
