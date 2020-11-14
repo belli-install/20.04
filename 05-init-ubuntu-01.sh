@@ -33,6 +33,16 @@ cp -vfR $PWD/Data/local/* ~/.local/
 echo "Importuji DBus nastavení"
 dconf load / < $PWD/Data/all-dconf.dconf
 
+#Upravy existujicich zkratek, abych si nezlomil pri praci prsty
+echo "Importuji základní úparvy klávesových zkratek"
+gsettings set org.gnome.desktop.wm.keybindings maximize "['<Alt>F10']"
+gsettings set org.gnome.desktop.wm.keybindings minimize "['<Super>Down']"
+gsettings set org.gnome.desktop.wm.keybindings toggle-maximized "['<Super>Up']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-up "['<Control><Super><Alt>Up']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-down "['<Control><Super><Alt>Down']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-left "['<Control><Super><Alt>Left']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-right "['<Control><Super><Alt>Right']"
+
 #install Joplin
 echo "Instaluji Joplin"
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
