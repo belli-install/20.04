@@ -18,6 +18,6 @@ else
 	touch ~/.jss-scriptsinit-done
 fi
 
-echo "Dokončeno - zbytlé scripty v cloudu"
+echo "Dokončeno - V případě singlebootu zbytlé scripty v cloudu"
 echo "cd ~/scripty/Install-Scripty/20.04/"
 
