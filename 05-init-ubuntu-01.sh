@@ -43,6 +43,12 @@ gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-down "['<Contro
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-left "['<Control><Super><Alt>Left']"
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-right "['<Control><Super><Alt>Right']"
 
+#nastaveni Dock
+echo "Nastavuji Dock"
+gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 32
+gsettings set org.gnome.shell.extensions.dash-to-dock autohide true
+gsettings set org.gnome.shell.extensions.dash-to-dock intellihide false
+
 #install Joplin
 echo "Instaluji Joplin"
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
