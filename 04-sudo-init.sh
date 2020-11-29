@@ -27,7 +27,11 @@ chmod 777 /media/upnp
 
 # uprava grubu k zapamatovani posledni zvolene pozice
 echo "Aktivuji Savedefault v GRUBu"
-cp -f $PWD/Data/etc/default/grub /etc/default/
+cp -vf $PWD/Data/etc/default/grub /etc/default/
 update-grub
+
+# Deaktivace popupu z Evolution kalendare
+echo "Deaktivuji otravnost kalendáře"
+cp -vf $PWD/Data/etc/xdg/autostart/org.gnome.Evolution-alarm-notify.desktop /etc/xdg/autostart/
 
 echo "Dokončeno"
