@@ -31,13 +31,14 @@ fi
 
 apt-get update
 
-apt-get install dconf-editor libglib2.0-dev libwxgtk3.0-gtk3-0v5 x11-utils gnome-tweaks cifs-utils net-tools samba-common samba winbind nextcloud-client inkscape blender chrome-gnome-shell gvfs-fuse smartmontools gsmartcontrol gparted exfat-fuse hfsprogs git rabbitvcs-cli rabbitvcs-core rabbitvcs-gedit rabbitvcs-nautilus filezilla tinyca arduino subversion subversion-tools ffmpeg p7zip p7zip-full p7zip-rar simple-scan gimagereader tesseract-ocr-ces hunspell-cs synaptic audacious audacious-plugins pepperflashplugin-nonfree openjdk-14-jre openjdk-14-jre-headless openjdk-14-jdk openjdk-14-jdk-headless geany geany-plugins k3b pidgin pidgin-plugin-pack pidgin-bot-sentry vlc keepassxc gpicview zim guake meld gimp gimp-data gimp-data-extras gimp-plugin-registry ubuntu-restricted-extras imagemagick jayatana doublecmd-gtk network-manager-openvpn-gnome devede -y
+apt-get install libgconf-2-4 libappindicator1 libc++1 dconf-editor libglib2.0-dev libwxgtk3.0-gtk3-0v5 x11-utils gnome-tweaks cifs-utils net-tools samba-common samba winbind nextcloud-client inkscape blender chrome-gnome-shell gvfs-fuse smartmontools gsmartcontrol gparted exfat-fuse hfsprogs git rabbitvcs-cli rabbitvcs-core rabbitvcs-gedit rabbitvcs-nautilus filezilla tinyca arduino subversion subversion-tools ffmpeg p7zip p7zip-full p7zip-rar simple-scan gimagereader tesseract-ocr-ces hunspell-cs synaptic audacious audacious-plugins pepperflashplugin-nonfree openjdk-14-jre openjdk-14-jre-headless openjdk-14-jdk openjdk-14-jdk-headless geany geany-plugins k3b pidgin pidgin-plugin-pack pidgin-bot-sentry vlc keepassxc gpicview zim guake meld gimp gimp-data gimp-data-extras gimp-plugin-registry ubuntu-restricted-extras imagemagick jayatana doublecmd-gtk network-manager-openvpn-gnome devede -y
 
 apt-get update
 
 apt-get upgrade -y
 
 wget -v -N -P $PWD/Data/install/ https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+wget -v -N -P $PWD/Data/install/ "https://discordapp.com/api/download?platform=linux&format=deb"
 
 dpkg -i $PWD/Data/install/*.deb
 
