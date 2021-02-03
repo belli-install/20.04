@@ -190,12 +190,17 @@ hinting='slight'
 
 [org/gnome/shell]
 command-history=['gnome-tweaks', 'r']
-enabled-extensions=['unite@hardpixel.eu', 'impatience@gfxmonk.net', 'wsmatrix@martin.zurowietz.de', 'overview-improved@human.experience', 'show_applications_instead_of_overview@fawtytoo']
-favorite-apps=['doublecmd.desktop', 'firefox.desktop', 'google-chrome.desktop', 'thunderbird.desktop', 'org.gnome.Calendar.desktop', 'appimagekit-joplin.desktop', 'org.gnome.Calculator.desktop', 'org.remmina.Remmina.desktop', 'gnome-system-monitor.desktop', 'org.keepassxc.KeePassXC.desktop', 'veracrypt.desktop', 'Apache NetBeans-12.0.desktop']
+enabled-extensions=['unite@hardpixel.eu', 'impatience@gfxmonk.net', 'wsmatrix@martin.zurowietz.de', 'lockkeys@vaina.lt']
+favorite-apps=['doublecmd.desktop', 'firefox.desktop', 'google-chrome.desktop', 'thunderbird.desktop', 'org.gnome.Calendar.desktop', 'appimagekit-joplin.desktop', 'discord.desktop', 'org.gnome.Calculator.desktop', 'org.remmina.Remmina.desktop', 'gnome-system-monitor.desktop', 'org.keepassxc.KeePassXC.desktop', 'veracrypt.desktop', 'Apache NetBeans-12.0.desktop']
+remember-mount-password=true
 
 [org/gnome/shell/extensions/desktop-icons]
 show-home=false
 show-trash=false
+
+[org/gnome/shell/extensions/lockkeys]
+notification-preferences='off'
+style='show-hide'
 
 [org/gnome/shell/extensions/net/gfxmonk/impatience]
 speed-factor=0.75

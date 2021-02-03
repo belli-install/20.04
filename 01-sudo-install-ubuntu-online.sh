@@ -38,7 +38,7 @@ apt-get update
 apt-get upgrade -y
 
 wget -v -N -P $PWD/Data/install/ https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-wget -v -N -P $PWD/Data/install/ "https://discordapp.com/api/download?platform=linux&format=deb"
+wget -v -N -P $PWD/Data/install/ https://discordapp.com/api/download?platform=linux&format=deb
 
 dpkg -i $PWD/Data/install/*.deb
 
