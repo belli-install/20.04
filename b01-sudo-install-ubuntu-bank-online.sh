@@ -49,17 +49,17 @@ notify-send "Instalace Dokončena"
 ###########	SWAP
 SWAPSIZE=4 #default swap size in GB
 if [ $# -lt 1 ]; then
-  echo 1>&2 "$0: Chybí argument <číslo> velikosti swapfile v GiB. Použití: sudo-init-swapfile.sh <číslo> - Prozatím nastavuji 8GB."
+  echo 1>&2 "$0: Chybí argument <číslo> velikosti swapfile v GiB. Použití: sudo-init-swapfile.sh <číslo> - Prozatím nastavuji ${SWAPSIZE}GB."
 #  exit 2
 elif [ $# -gt 1 ]; then
-  echo 1>&2 "$0: Příliš mnoho argumentů. Použití: sudo-init-swapfile.sh <číslo v GB> - Prozatím nastavuji 8GB."
+  echo 1>&2 "$0: Příliš mnoho argumentů. Použití: sudo-init-swapfile.sh <číslo v GB> - Prozatím nastavuji ${SWAPSIZE}GB."
 #  exit 2
 fi
 
 if [ $# = 1 ]; then
 re='^[0-9]+$'
  if ! [[ $1 =~ $re ]]; then
-   echo "$0: Argument není číslo. Swap bude prozatím 8GB." >&2
+   echo "$0: Argument není číslo. Swap bude prozatím ${SWAPSIZE}GB." >&2
  elif [[ $1 =~ $re ]]; then
   SWAPSIZE=$1
  fi
