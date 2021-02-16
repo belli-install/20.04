@@ -20,7 +20,6 @@ else
 	mkdir ~/.SafeWP
 	mkdir ~/.KPX
 	mkdir ~/Backup
-	#mkdir ~/Backup/Quick
 
 	touch ~/.jss-basicinit-done
 fi
@@ -53,4 +52,4 @@ gsettings set org.gnome.shell.extensions.dash-to-dock intellihide false
 echo "Instaluji Joplin"
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 
-echo "Dokončeno"
+echo "Dokončeno - user install/init."

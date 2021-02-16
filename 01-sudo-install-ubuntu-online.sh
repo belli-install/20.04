@@ -1,7 +1,10 @@
 #!/bin/bash
 
+# su -c "command" ubuntu
+# $SUDO_USER
+
 if [ "$(whoami)" != "root" ]; then
-	echo "Chybí sudo"
+	echo "Chybí sudo - script je nutno spustit s elevovanými právy"
 	exit 1
 fi
 
@@ -46,4 +49,83 @@ apt-get update
 
 apt-get autoremove -y
 
-echo "Dokončeno"
+echo "Instalace dokončena"
+notify-send "Instalace Dokončena"
+
+###########	SWAP
+SWAPSIZE=8 #default swap size in GB
+if [ $# -lt 1 ]; then
+  echo 1>&2 "$0: Chybí argument <číslo> velikosti swapfile v GiB. Použití: sudo-init-swapfile.sh <číslo> - Prozatím nastavuji ${SWAPSIZE}GB."
+#  exit 2
+elif [ $# -gt 1 ]; then
+  echo 1>&2 "$0: Příliš mnoho argumentů. Použití: sudo-init-swapfile.sh <číslo v GB> - Prozatím nastavuji ${SWAPSIZE}GB."
+#  exit 2
+fi
+
+if [ $# = 1 ]; then
+re='^[0-9]+$'
+ if ! [[ $1 =~ $re ]]; then
+   echo "$0: Argument není číslo. Swap bude prozatím ${SWAPSIZE}GB." >&2
+ elif [[ $1 =~ $re ]]; then
+  SWAPSIZE=$1
+ fi
+ 
+fi 
+
+SWAPEXISTS=0
+
+if [ -f /swapfile ]
+then
+	echo "Nalezen aktivní swapfile. Deaktivuji a odstraňuji"
+	SWAPEXISTS=1
+	swapoff /swapfile
+	rm -rf /swapfile
+fi
+
+echo "Vytvářím swapfile"
+fallocate -l ${SWAPSIZE}G /swapfile
+echo "Nastavuji swapfile"
+chmod 600 /swapfile
+mkswap /swapfile
+swapon /swapfile
+echo "Swapfile nastaven a aktivován"
+
+if [ ${SWAPEXISTS} == 0 ]; then
+	echo "Zavádím swapfile do /etc/fstab"
+	sed -i '$a /swapfile   none    swap    sw    0   0' /etc/fstab
+fi
+
+##########	INIT
+if [ -f /etc/.jss-hostnames-added ]
+then
+    echo "Hostanames už byly nastaveny" 
+else
+	echo "Nastavuji Hostnames"
+	#nastavit bluetooth jmeno
+	echo "PRETTY_HOSTNAME=$(hostname)" | sudo tee /etc/machine-info
+
+	echo "127.0.1.1	$(hostname)" > ~/tmp_file && 
+	echo "127.0.0.1	weby" >> ~/tmp_file && 
+	cat /etc/hosts >> ~/tmp_file &&
+	mv ~/tmp_file /etc/hosts
+	
+	touch /etc/.jss-hostnames-added
+fi
+
+echo "UPNP adresář"
+mkdir /media/upnp
+chmod 777 /media/upnp
+
+# uprava grubu k zapamatovani posledni zvolene pozice
+echo "Aktivuji Savedefault v GRUBu"
+cp -vf $PWD/Data/etc/default/grub /etc/default/
+update-grub
+
+# Deaktivace popupu z Evolution kalendare
+echo "Deaktivuji otravnost kalendáře"
+cp -vf $PWD/Data/etc/xdg/autostart/org.gnome.Evolution-alarm-notify.desktop /etc/xdg/autostart/
+
+echo "Dokončeno - root install/init"
+
+#volani user scriptu
+su -c "bash $PWD/02-user-init.sh" $SUDO_USER
