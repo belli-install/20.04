@@ -15,5 +15,4 @@ else
 	touch ~/.jss-dualboot-timefix-done
 fi
 
-echo "Dokončeno - zbytlé scripty v cloudu"
-echo "cd ~/scripty/Install-Scripty/20.04/"
+echo "Dokončeno"
