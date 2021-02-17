@@ -43,4 +43,8 @@ gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 32
 gsettings set org.gnome.shell.extensions.dash-to-dock autohide true
 gsettings set org.gnome.shell.extensions.dash-to-dock intellihide false
 
+#install Joplin
+echo "Instaluji Joplin"
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
+
 echo "Dokončeno - user install/init."
