@@ -127,5 +127,9 @@ cp -vf $PWD/Data/etc/xdg/autostart/org.gnome.Evolution-alarm-notify.desktop /etc
 
 echo "Dokončeno - root install/init"
 
+#Fn lock fix pro Apple klavesnice
+su -c "echo options hid_apple fnmode=2" | tee -a /etc/modprobe.d/hid_apple.conf
+update-initramfs -u -k all
+
 #volani user scriptu
 su -c "bash $PWD/02-user-init.sh" $SUDO_USER
