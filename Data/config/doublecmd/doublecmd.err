@@ -739,3 +739,21 @@ Unhandled exception: EAccessViolation: Access violation
   $00000000006E51E9 line 2868, column 3 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
   $00000000004EADFF line 6312, column 19 of fmain.pas in /usr/lib/doublecmd/doublecmd
 
+--------------- 01-03-2021, 05:09:05 ---------------
+| DC v0.9.10 beta Rev. 9640 -- x86_64-Linux-gtk2
+| Ubuntu 20.04.2 LTS -- GTK 2.24.32 | PID 6944
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FAA84ACB465 in /lib/x86_64-linux-gnu/libglib-2.0.so.0
+
+--------------- 01-03-2021, 05:09:14 ---------------
+| DC v0.9.10 beta Rev. 9640 -- x86_64-Linux-gtk2
+| Ubuntu 20.04.2 LTS -- GTK 2.24.32 | PID 6944
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00000000008CCEEB line 906, column 5 of platform/unix/ugvolume.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004DB139 line 184, column 3 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004DB16E line 198, column 1 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000433F80 in /usr/lib/doublecmd/doublecmd
+  $00000000004D6676 line 1934, column 3 of forms.pp in /usr/lib/doublecmd/doublecmd
+

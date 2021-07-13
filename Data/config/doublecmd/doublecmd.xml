@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<doublecmd DCVersion="0.9.9 beta" ConfigVersion="10">
+<doublecmd DCVersion="0.9.10 beta" ConfigVersion="10">
   <Configuration Save="True" SortOrder="0" TreeType="0">
     <UseConfigInProgramDir>False</UseConfigInProgramDir>
     <FolderTabs Save="True"/>
@@ -549,7 +549,7 @@
   <Viewer>
     <PreviewVisible>False</PreviewVisible>
     <SaveThumbnails>True</SaveThumbnails>
-    <ImageStretch>False</ImageStretch>
+    <ImageStretch>True</ImageStretch>
     <CopyMovePath1/>
     <CopyMovePath2/>
     <CopyMovePath3/>
@@ -707,9 +707,9 @@
     <Position Save="True">
       <Maximized>True</Maximized>
       <Left>960</Left>
-      <Top>24</Top>
+      <Top>114</Top>
       <Width>960</Width>
-      <Height>1148</Height>
+      <Height>752</Height>
       <Splitter>50</Splitter>
       <PixelsPerInch>96</PixelsPerInch>
     </Position>
